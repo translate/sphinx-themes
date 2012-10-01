@@ -4273,6 +4273,13 @@ footer a:hover {
 .content section {
   padding: 60px 0 40px;
 }
+.content :target:before {
+  content: "";
+  display: block;
+  height: 61px;
+  margin-top: -61px;
+  visibility: hidden;
+}
 .content .section {
   margin-top: 30px;
 }

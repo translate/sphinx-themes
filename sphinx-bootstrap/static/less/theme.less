@@ -175,6 +175,14 @@ footer a {
 
   // Specifics to Sphinx
 
+  :target:before {
+    content: "";
+    display: block;
+    height: @navbarHeight + 1;
+    margin-top: -(@navbarHeight + 1);
+    visibility: hidden;
+  }
+
   .section {
     margin-top: 30px;
   }
