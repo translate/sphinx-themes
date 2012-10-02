@@ -4203,6 +4203,15 @@ input[type="submit"].btn.btn-mini {
 body {
   padding-top: 61px;
 }
+footer .nav li {
+  float: left;
+}
+footer .nav li a {
+  padding: 0 15px;
+}
+footer .nav li a:hover {
+  background-color: inherit;
+}
 footer a {
   color: #777777;
 }
