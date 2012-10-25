@@ -8,7 +8,10 @@ Installation
 ------------
 
 Add this repository contents as *_theme* into your docs folder. You can also
-add it as a git submodule.
+add it as a `git submodule <http://git-scm.com/book/en/Git-Tools-Submodules>`_,
+which is probably the best idea::
+
+    git submodule add git://github.com/translate/sphinx-themes.git docs/_themes/
 
 Adjust the necessary configuration options in *conf.py*::
 
